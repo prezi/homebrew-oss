@@ -9,6 +9,5 @@ class Pride < Formula
   def install
     libexec.install ["pride-#{version}/bin", "pride-#{version}/lib"]
     bin.install_symlink libexec+'bin/pride'
-    system libexec+"bin/pride config --global --default repo.base.url git@github.com:prezi"
   end
 end
