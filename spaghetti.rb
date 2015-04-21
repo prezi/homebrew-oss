@@ -2,8 +2,8 @@ require 'formula'
 
 class Spaghetti < Formula
   homepage 'https://github.com/prezi/spaghetti'
-  version "2.1-alpha-2"
-  sha1 '55a0cc6bd399d7ecd37479d3ddc8d65f622b1be7'
+  version "2.1"
+  sha1 "47c8f38f570bd30bc27f383d226728783b641958"
   url "https://github.com/prezi/spaghetti/releases/download/#{version}/spaghetti-#{version}.zip"
 
   def install
