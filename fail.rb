@@ -3,7 +3,7 @@ require 'formula'
 class Fail < Formula
   homepage 'https://github.com/prezi/fail'
   version "alpha.6"
-  sha1 '57c88b54d9ae7e0ae6258b866d80d5a802ba6cc2'
+  sha256 '19cabea428aab45ffdb76fa965af7dcf345c82c0e698dbb0b1e456ec1980c3f3'
   head 'git@github.com:prezi/fail', :using => :git
   url "https://github.com/prezi/fail/releases/download/#{version}/fail-#{version}.tgz"
 
