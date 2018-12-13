@@ -2,9 +2,9 @@ require "formula"
 
 class Pride < Formula
   homepage "https://github.com/prezi/pride/"
-  version "0.11"
-  url "https://oss.sonatype.org/content/repositories/releases/com/prezi/pride/pride/#{version}/pride-#{version}-dist.zip"
-  sha256 "ee85c365f049e719f996aba49cb41dd681cf2bcf7350c0f3ce18d78f2505ddb3"
+  version "0.12.3"
+  url "https://oss.sonatype.org/content/repositories/releases/com/prezi/pride/pride/#{version}/pride-#{version}.zip"
+  sha256 "74488d875b410f0772061b477e8f90f1f21bdac5ac46aa48989684810d10f194"
 
   def install
     libexec.install ["pride-#{version}/bin", "pride-#{version}/lib"]
